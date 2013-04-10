@@ -1,0 +1,275 @@
+{
+	"exchangerates": [
+		{
+			"text": "United Arab Emirates Dirham",
+			"value": "3.67250"
+		},{
+			"text": "Argentine Peso",
+			"value": "4.99776"
+		},{
+			"text": "Australian Dollar",
+			"value": "0.96910"
+		},{
+			"text": "Aruban Florin",
+			"value": "1.79000"
+		},{
+			"text": "Bosnia and Herzegovina convertible mark",
+			"value": "1.46340"
+		},{
+			"text": "Barbadian Dollar",
+			"value": "2.00000"
+		},{
+			"text": "Bangladeshi Taka",
+			"value": "78.21175"
+		},{
+			"text": "Bulgarian Lev",
+			"value": "1.46340"
+		},{
+			"text": "Bahraini Dinar",
+			"value": "0.37600"
+		},{
+			"text": "Bermudian Dollar",
+			"value": "1.00000"
+		},{
+			"text": "Bolivian Boliviano",
+			"value": "7.01833"
+		},{
+			"text": "Brazilian Real",
+			"value": "1.97523"
+		},{
+			"text": "Bahamian Dollar",
+			"value": "1.00000"
+		},{
+			"text": "Canadian Dollar",
+			"value": "1.00232"
+		},{
+			"text": "Swiss Franc",
+			"value": "0.91740"
+		},{
+			"text": "Chilean Peso",
+			"value": "472.95174"
+		},{
+			"text": "Chinese Yuan",
+			"value": "6.23636"
+		},{
+			"text": "Colombian Peso",
+			"value": "789.74935"
+		},{
+			"text": "Czech Koruna",
+			"value": "18.87243"
+		},{
+			"text": "Danish Krone",
+			"value": "5.58203"
+		},{
+			"text": "Egyptian Pound",
+			"value": "6.71455"
+		},{
+			"text": "Euro",
+			"value": "0.74822"
+		},{
+			"text": "Fijian Dollar",
+			"value": "1.79516"
+		},{
+			"text": "British Pound Sterling",
+			"value": "0.63285"
+		},{
+			"text": "Ghana Cedi",
+			"value": "1.92495"
+		},{
+			"text": "Gambian Dalasi",
+			"value": "33.98908"
+		},{
+			"text": "Guatemalan Quetzal",
+			"value": "7.87505"
+		},{
+			"text": "Hong Kong Dollar",
+			"value": "7.75000"
+		},{
+			"text": "Croatian Kuna",
+			"value": "5.67168"
+		},{
+			"text": "Hungarian Forint",
+			"value": "217.61998"
+		},{
+			"text": "Indonesian Rupiah",
+			"value": "670.03367"
+		},{
+			"text": "Israeli Sheqel",
+			"value": "3.69024"
+		},{
+			"text": "Indian Rupee",
+			"value": "53.59499"
+		},{
+			"text": "Icelandic Krona",
+			"value": "127.79888"
+		},{
+			"text": "Jamaican Dollar",
+			"value": "94.21968"
+		},{
+			"text": "Jordanian Dinar",
+			"value": "0.70900"
+		},{
+			"text": "Japanese Yen",
+			"value": "92.70857"
+		},{
+			"text": "Kenyan Shilling",
+			"value": "87.62177"
+		},{
+			"text": "Cambodian Riel",
+			"value": "981.71822"
+		},{
+			"text": "South Korean Won",
+			"value": "093.67752"
+		},{
+			"text": "Kuwaiti Dinar",
+			"value": "0.28133"
+		},{
+			"text": "Lao Kip",
+			"value": "915.25208"
+		},{
+			"text": "Lebanese Pound",
+			"value": "507.50000"
+		},{
+			"text": "Sri Lankan Rupee",
+			"value": "126.35092"
+		},{
+			"text": "Lithuanian Litas",
+			"value": "2.58346"
+		},{
+			"text": "Latvian Lats",
+			"value": "0.52585"
+		},{
+			"text": "Moroccan Dirham",
+			"value": "8.36162"
+		},{
+			"text": "Moldovan Leu",
+			"value": "12.04609"
+		},{
+			"text": "Malagasy Ariary",
+			"value": "209.75683"
+		},{
+			"text": "Macedonian Denar",
+			"value": "47.07482"
+		},{
+			"text": "Mauritian Rupee",
+			"value": "30.49016"
+		},{
+			"text": "Maldivian Rufiyaa",
+			"value": "15.35503"
+		},{
+			"text": "Mexican Peso",
+			"value": "12.73049"
+		},{
+			"text": "Malaysian Ringgit",
+			"value": "3.09951"
+		},{
+			"text": "Namibian Dollar",
+			"value": "8.88687"
+		},{
+			"text": "Nigerian Naira",
+			"value": "157.19940"
+		},{
+			"text": "Norwegian Krone",
+			"value": "5.53850"
+		},{
+			"text": "Nepalese Rupee",
+			"value": "85.75198"
+		},{
+			"text": "New Zealand Dollar",
+			"value": "1.19701"
+		},{
+			"text": "Omani Rial",
+			"value": "0.38450"
+		},{
+			"text": "Panamanian Balboa",
+			"value": "1.00000"
+		},{
+			"text": "Peruvian Sol",
+			"value": "2.58025"
+		},{
+			"text": "Philippine Peso",
+			"value": "40.73027"
+		},{
+			"text": "Pakistani Rupee",
+			"value": "97.91994"
+		},{
+			"text": "Polish Zloty",
+			"value": "3.10587"
+		},{
+			"text": "Paraguayan Guaran\u00ed",
+			"value": "123.67273"
+		},{
+			"text": "Qatari Riyal",
+			"value": "3.64000"
+		},{
+			"text": "Romanian Leu",
+			"value": "3.28994"
+		},{
+			"text": "Serbian Dinar",
+			"value": "77.55817"
+		},{
+			"text": "Russian Rouble",
+			"value": "30.15189"
+		},{
+			"text": "Saudi Riyal",
+			"value": "3.75032"
+		},{
+			"text": "Seychellois Rupee",
+			"value": "12.67594"
+		},{
+			"text": "Swedish Krona",
+			"value": "6.44646"
+		},{
+			"text": "Singapore Dollar",
+			"value": "1.23861"
+		},{
+			"text": "Syrian Pound",
+			"value": "70.94718"
+		},{
+			"text": "Thai Baht",
+			"value": "29.79424"
+		},{
+			"text": "Tunisian Dinar",
+			"value": "1.55264"
+		},{
+			"text": "Turkish Lira",
+			"value": "1.77097"
+		},{
+			"text": "Taiwanese Dollar",
+			"value": "29.73812"
+		},{
+			"text": "Ukraine Hryvnia",
+			"value": "8.11253"
+		},{
+			"text": "Ugandan Shilling",
+			"value": "653.14605"
+		},{
+			"text": "United States Dollar",
+			"value": "1.00000"
+		},{
+			"text": "Uruguayan Peso",
+			"value": "19.05724"
+		},{
+			"text": "Venezuelan Bol\u00edvar",
+			"value": "4.29562"
+		},{
+			"text": "Vietnamese Dong",
+			"value": "834.26861"
+		},{
+			"text": "Central African Franc",
+			"value": "490.80210"
+		},{
+			"text": "East Caribbean Dollar",
+			"value": "2.70000"
+		},{
+			"text": "West African Franc",
+			"value": "490.80210"
+		},{
+			"text": "CFP Franc",
+			"value": "89.28675"
+		},{
+			"text": "South African Rand",
+			"value": "8.88687"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+@import 'sencha-touch/default/all';
+
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-carousel;
+@include sencha-form;
+@include sencha-msgbox;
+
+// Your custom code goes here...
+
+@include sencha-button-ui('orange', #e36a00, 'matte');
+// #ff8317, #e36a00, #b05200
+
+.keys .x-button {
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+
+.ioscreen .x-sheet, .x-sheet-action {
+padding:0.7em;
+height:auto;
+background-image: none;
+background-color: #006bb6;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0398ff), color-stop(3%, #007ad0), color-stop(100%, #005c9d));
+background-image: -webkit-linear-gradient(top, #0398ff, #007ad0 3%, #005c9d);
+background-image: linear-gradient(top, #0398ff, #007ad0 3%, #005c9d);-webkit-border-radius:0;
+border-radius:0;
+}
+
+.ioscreen .x-picker-slot .x-picker-item {
+text-align: right;
+text-overflow: clip;
+float: right;
+font-weight: normal;
+
+}
+
+body {
+background-color: #000;
+}

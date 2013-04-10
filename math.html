@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Math</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="mathparser.js" type="text/javascript" charset="UTF-8"></script>
+    <!-- <script src="mathparser-min.js" type="text/javascript" charset="UTF-8"></script> -->
+    <style>
+        body {
+            background-color: #ddd;
+            font-family: 'Helvetica Neue', HelveticaNeue, sans-serif;
+            text-shadow: white 0px 1px 1px;
+        }
+        
+        #io, #info {
+            width: 95%;
+            font-family: monospace;
+            font-size: 1.7em;
+            border: 1px solid #bbb;
+            border-radius: 0.5em;
+            padding: 0.2em 0.3em 0.2em 0.4em;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="io" name="fname" value=""><br />
+    <input type="submit" id="btn" name="bname" value="Go">
+    <p id="info">&nbsp;</p>
+    
+    <script type="text/javascript" >
+        var input = document.getElementById("io");
+        var submit = document.getElementById("btn");
+        var info = document.getElementById("info");
+        
+        var mathparser = new Expression('');
+        
+        submit.addEventListener("click", function() {
+            mathparser.Reset();
+            var v = input.value;
+            mathparser.Expression(v);
+            info.innerHTML = mathparser.Evaluate();
+            mathparser.Reset();
+        }, false);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+# Build and Release Folders
+archive/
+build/
+resources/sass/.sass-cache/
+
+# Library
+touch/
