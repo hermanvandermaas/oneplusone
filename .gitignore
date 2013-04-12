@@ -2,6 +2,3 @@
 archive/
 build/
 resources/sass/.sass-cache/
-
-# Library
-touch/
