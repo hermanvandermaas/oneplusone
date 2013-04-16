@@ -17,6 +17,7 @@ Ext.define("OnePlusOne.view.MainP", {
             {
                 xtype: 'container', // input/output line
                 itemId : 'iocontainer',
+                cls: 'ioscreen',
                 flex: 2.5,
                 layout: 'hbox',
                 items: [
@@ -249,6 +250,49 @@ Ext.define("OnePlusOne.view.MainP", {
                         layout: 'hbox',
                         items: [
                             {
+                                xtype: 'container',
+                                layout: 'card',     
+                                activeItem: 0,
+                                flex: 2,
+                                itemId: 'parentheses_enter_container',
+                                items: [
+                                    // 2 or 1 buttons: parenthese or rpn Enter button
+                                    {
+                                        xtype: 'container',
+                                        itemId: 'parenthesescontainer',
+                                        flex: 1,
+                                        layout: 'hbox',
+                                        items: [
+                                            // 2 or 1 buttons: parenthese or rpn Enter button
+                                            {
+                                                xtype: 'button',
+                                                itemId: 'leftp',
+                                                flex: 1,
+                                                text: '(',
+                                                ui: 'orange'
+                                            },
+                                            {
+                                                xtype: 'button',
+                                                itemId: 'rightp',
+                                                flex: 1,
+                                                text: ')',
+                                                ui: 'orange'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        xtype: 'button',
+                                        flex: 1,
+                                        itemId: 'enter',
+                                        text: 'Enter',
+                                        ui: 'orange'
+                                    }
+                                    
+                                    
+                                ]
+                            },
+                            /*
+                            {
                                 xtype: 'button',
                                 itemId: 'leftp',
                                 flex: 1,
@@ -262,19 +306,29 @@ Ext.define("OnePlusOne.view.MainP", {
                                 text: ')',
                                 ui: 'orange'
                             },
+                            */
                             {
-                                xtype: 'button',
-                                itemId: 'exponent',
-                                flex: 1,
-                                text: '^',
-                                ui: 'orange'
-                            },
-                            {
-                                xtype: 'button',
-                                itemId: 'is',
-                                flex: 1,
-                                text: '=',
-                                ui: 'confirm'
+                                xtype: 'container',
+                                itemId: 'exponent_is_container',
+                                flex: 2,
+                                layout: 'hbox',
+                                items: [
+                                    // 2 buttons
+                                    {
+                                        xtype: 'button',
+                                        itemId: 'exponent',
+                                        flex: 1,
+                                        text: '^',
+                                        ui: 'orange'
+                                    },
+                                    {
+                                        xtype: 'button',
+                                        itemId: 'is',
+                                        flex: 1,
+                                        text: '=',
+                                        ui: 'confirm'
+                                    }
+                                ]
                             }
                         ]
                     }

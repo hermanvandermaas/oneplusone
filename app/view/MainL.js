@@ -16,13 +16,14 @@ Ext.define("OnePlusOne.view.MainL", {
         items: [
             {
                 xtype: 'container',
+                itemId : 'iocontainer',
+                cls: 'ioscreen',
                 flex: 2,
                 layout: 'hbox',
                 items: [
                     {
                         xtype: 'container',
                         flex: 1,
-                        cls: 'ioscreen',
                         items: [
                             // io screen
                             {
@@ -50,7 +51,7 @@ Ext.define("OnePlusOne.view.MainL", {
                     },
                     {
                         xtype: 'container',
-                        itemId: 'keyboard-L',
+                        itemId: 'keyboard',
                         cls: 'keys',
                         flex: 1,
                         layout: 'vbox',
@@ -62,25 +63,62 @@ Ext.define("OnePlusOne.view.MainL", {
                                 items: [
                                     // 3 buttons
                                     {
-                                        xtype: 'button',
-                                        itemId: 'leftp',
-                                        flex: 1,
-                                        text: '(',
-                                        ui: 'orange'
+                                        xtype: 'container',
+                                        layout: 'card',     
+                                        activeItem: 0,
+                                        flex: 2,
+                                        itemId: 'parentheses_enter_container',
+                                        items: [
+                                            // 2 or 1 buttons: parenthese or rpn Enter button
+                                            {
+                                                xtype: 'container',
+                                                itemId: 'parenthesescontainer',
+                                                flex: 1,
+                                                layout: 'hbox',
+                                                items: [
+                                                    // 2 or 1 buttons: parenthese or rpn Enter button
+                                                    {
+                                                        xtype: 'button',
+                                                        itemId: 'leftp',
+                                                        flex: 1,
+                                                        text: '(',
+                                                        ui: 'orange'
+                                                    },
+                                                    {
+                                                        xtype: 'button',
+                                                        itemId: 'rightp',
+                                                        flex: 1,
+                                                        text: ')',
+                                                        ui: 'orange'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                xtype: 'button',
+                                                flex: 1,
+                                                itemId: 'enter',
+                                                text: 'Enter',
+                                                ui: 'orange'
+                                            }
+                                            
+                                            
+                                        ]
                                     },
                                     {
-                                        xtype: 'button',
-                                        itemId: 'rightp',
+                                        xtype: 'container',
+                                        itemId: 'backspacecontainer',
+                                        layout: 'fit',
                                         flex: 1,
-                                        text: ')',
-                                        ui: 'orange'
-                                    },
-                                    {
-                                        xtype: 'button',
-                                        itemId: 'backspace',
-                                        flex: 1,
-                                        text: '←',
-                                        ui: 'normal',
+                                        items: [
+                                            {
+                                                xtype: 'button',
+                                                itemId: 'backspace',
+                                                //style: 'padding: 0;',
+                                                flex: 1,
+                                                text: '⇦',
+                                                ui: 'normal',
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -124,7 +162,7 @@ Ext.define("OnePlusOne.view.MainL", {
                 items: [
                     {
                         xtype: 'container',
-                        itemId: 'keyboard-L',
+                        itemId: 'keyboard',
                         cls: 'keys',
                         flex: 1,
                         layout: 'vbox',
@@ -224,7 +262,7 @@ Ext.define("OnePlusOne.view.MainL", {
                     },
                     {
                         xtype: 'container',
-                        itemId: 'keyboard-L',
+                        itemId: 'keyboard',
                         cls: 'keys',
                         flex: 1,
                         layout: 'vbox',

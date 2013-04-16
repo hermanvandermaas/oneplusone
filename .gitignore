@@ -1,4 +1,6 @@
 # Build and Release Folders
 archive/
 build/
+
+# Sass cache folder
 resources/sass/.sass-cache/
