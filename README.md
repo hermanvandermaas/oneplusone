@@ -6,7 +6,7 @@
 Features:
 
 1.  Basic calculator functions: 
-* parentheses
+** parentheses
 * adding
 * subtracting
 * multiplying
