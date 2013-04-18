@@ -5,14 +5,17 @@
 
 Features:
 
+0.  Scrollable input / output screen: calculations are made directly inside the history list
 1.  Basic calculator functions: 
-** parentheses
-* adding
-* subtracting
-* multiplying
-* dividing
-* x to power y
-* x root y
-2.  Reverse Polish Notation (RPN) mode
-3.  currency converting mode
+    * parentheses, nesting to any level
+    * adding
+    * subtracting
+    * multiplying
+    * dividing
+    * x to power y
+    * x root y
+2.  Reverse Polish Notation (RPN) expression mode, the stack is displayed horizontally
+3.  Currency converting mode
 4.  Landscape and portrait layout
+5.  Delete single calculations
+6.  Delete all calculations
