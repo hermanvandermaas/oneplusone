@@ -4,3 +4,6 @@ build/
 
 # Sass cache folder
 resources/sass/.sass-cache/
+
+# c9 IDE
+.c9revisions/
