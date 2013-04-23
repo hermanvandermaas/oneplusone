@@ -115,7 +115,7 @@ Ext.define("OnePlusOne.view.MainL", {
                                                 itemId: 'backspace',
                                                 //style: 'padding: 0;',
                                                 flex: 1,
-                                                text: '⇦',
+                                                text: '←',
                                                 ui: 'normal',
                                             }
                                         ]

@@ -302,19 +302,25 @@ Ext.define("OnePlusOne.controller.Calculate", {
             views.rpnbutton[0].setBadgeText('on');
             views.rpnbutton[1].setBadgeText('on');
 
-            views.leftparenthese[0].setText('_');
-            views.rightparenthese[0].disable();
-            views.leftparenthese[1].setText('_');
-            views.rightparenthese[1].disable();
+            Ext.each(Ext.ComponentQuery.query('#keyboard #parentheses_enter_container'), function(item, index, theArray) {
+                item.animateActiveItem(1, {type: 'slide', direction: 'right', duration: 450});
+            });
+            
+            Ext.each(Ext.ComponentQuery.query('#keyboard #is'), function(item, index, theArray) {
+                item.disable();
+            });
         } else {
             io.rpn = 'off';
             views.rpnbutton[0].setBadgeText('off');
             views.rpnbutton[1].setBadgeText('off');
 
-            views.leftparenthese[0].setText('(');
-            views.rightparenthese[0].enable();
-            views.leftparenthese[1].setText('(');
-            views.rightparenthese[1].enable();
+            Ext.each(Ext.ComponentQuery.query('#keyboard #parentheses_enter_container'), function(item, index, theArray) {
+                item.animateActiveItem(0, {type: 'slide', direction: 'left', duration: 450});
+            });
+        
+            Ext.each(Ext.ComponentQuery.query('#keyboard #is'), function(item, index, theArray) {
+                item.enable();
+            });
         }
     },
     
