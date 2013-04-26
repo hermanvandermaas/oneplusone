@@ -11,7 +11,8 @@ Ext.define("OnePlusOne.controller.Calculate", {
     },
 
     config: {        
-        control: {            
+        control: {  
+            // Portrait view
             '#keyboard #backspace': {
                 tap: 'edit'
             },
@@ -83,6 +84,9 @@ Ext.define("OnePlusOne.controller.Calculate", {
             },
             '#keyboard #is': {
                 tap: 'calculate'
+            },
+            '#keyboard #enter': {
+                tap: 'edit'
             },
 
 
@@ -158,6 +162,9 @@ Ext.define("OnePlusOne.controller.Calculate", {
             },
             '#keyboard-L #is': {
                 tap: 'calculate'
+            },
+            '#keyboard-L #enter': {
+                tap: 'edit'
             }
         }        
 	},
@@ -185,6 +192,8 @@ Ext.define("OnePlusOne.controller.Calculate", {
             io.setValue( {ioLines: theslots[io.activeline].value}, true);
 
         } else {
+            if (txt == 'Enter') var txt = String.fromCharCode(160);
+            
             // Add input to io screen
             var theslots = io.getSlots()[0].data;
             // theslots[io.activeline].value = theslots[io.activeline].value + txt;
